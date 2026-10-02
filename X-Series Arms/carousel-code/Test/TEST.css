@@ -1,0 +1,299 @@
+/* CAROUSEL TEST */
+/* Slide in & out settings */
+@keyframes slidein {
+    0% {
+      top: -400px;
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+      top: 0px;
+    }
+  }
+
+  @keyframes slideout {
+    0% {
+      top: 0;
+      opacity: 1;
+    }
+
+    100% {
+      top: -400px;
+      opacity: 0;
+    }
+  }
+
+  /* All the visual content */
+  div.carousel-content-container { 
+    background: #eee;
+    font-family: "Tahoma";
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* The visuals are displayed flex */
+  div.carousel-content-container #flex-scene {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    max-width: 1000px;
+    height: 400px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    overflow: hidden;
+  }
+
+  /* Left side of the carousel */
+  div.carousel-content-container #flex-scene #left-zone {
+    background: #fff;
+    height: 75%;
+    flex-grow: 0;
+    display: flex;
+    width: 350px;
+    align-items: center;
+    justify-content: left;
+  }
+
+  /* The full list */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list {
+    display: flex;
+    list-style: none;
+    align-content: stretch;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+  }
+
+/* Individual list content/hides radio button */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] {
+    display: none;
+  }
+
+/* Individual list right-content */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ label {
+    display: block;
+    opacity: 0.5;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  /* Button functionality */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ label:first-letter {
+    text-transform: uppercase;
+  }
+
+/* Makes pointer on hover */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ label:hover {
+    opacity: 0.75;
+    cursor: pointer;
+  }
+
+/* Left Thumbnail 1 */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ label.onrobot-label1:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/83067-200.png");
+    background-position: center;
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
+  }
+
+/* Left Thumbnail 2 */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ label.label_banana:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/53209-200.png");
+    background-position: center;
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
+  }
+
+/* Left Thumbnail 3 */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ label.label_apple:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/14333-200.png");
+    background-position: center;
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
+  }
+
+/* Left Thumbnail 4 */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ label.label_orange:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/9636-200.png");
+    background-position: center;
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
+  }
+
+/* Not sure but NEEDED or page breaks (Content) */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ .content {
+    position: absolute;
+    left: 350px;
+    top: -400px;
+    width: 650px;
+    height: 400px;
+    animation-duration: 0.75s;
+    animation-name: slideout;
+    animation-timing-function: ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+/* Right individual content section 1 */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ .content.content_strawberry .onrobot-right-pic1 {
+    height: 100px;
+    width: 100px;
+    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/83067-200.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  /* Right title color Section 1 */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ .content.content_strawberry h1.onrobot-right-title1-h1 {
+    color: #d64541;
+  }
+
+/* Right individual content section 2 */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ .content.content_banana .picto {
+    height: 100px;
+    width: 100px;
+    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/53209-200.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  /* Right title color Section 2 */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ .content.content_banana h1 {
+    color: #f5d76e;
+  }
+
+/* Right individual content section 3 */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ .content.content_apple .picto {
+    height: 100px;
+    width: 100px;
+    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/14333-200.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  /* Right title color Section 3 */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ .content.content_apple h1 {
+    color: #00b16a;
+  }
+
+/* Right individual content section 4 */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ .content.content_orange .picto {
+    height: 100px;
+    width: 100px;
+    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/9636-200.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  /* Right title color Section 4 */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ .content.content_orange h1 {
+    color: #f27935;
+  }
+
+
+  /* Right title upper case - first letter */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ .content h1:first-letter {
+    text-transform: uppercase;
+  }
+
+    /* Right body text center */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"] ~ .content p {
+    max-width: 50%;
+    text-align: center;
+  }
+
+/* Checked content animation */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"]:checked ~ label {
+    opacity: 1;
+    animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  }
+
+/* Color while on hover & selcted */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"]:checked ~ label.onrobot-label1 {
+    color: #d64541;
+    border-right: solid 4px #d64541;
+  }
+
+/* Color while on hover & selcted */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"]:checked ~ label.label_banana {
+    color: #f5d76e;
+    border-right: solid 4px #f5d76e;
+  }
+
+/* Color while on hover & selcted */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"]:checked ~ label.label_apple {
+    color: #00b16a;
+    border-right: solid 4px #00b16a;
+  }
+
+/* Color while on hover & selcted */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"]:checked ~ label.label_orange {
+    color: #f27935;
+    border-right: solid 4px #f27935;
+  }
+
+/* Animation settings */
+  div.carousel-content-container #flex-scene #left-zone .onrobot-list li.onrobot-item input[type="radio"]:checked ~ .content {
+    animation-duration: 0.75s;
+    animation-name: slidein;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  }
+
+/* Carousel Content container */
+  div.carousel-content-container #flex-scene #middle-border {
+    background-color: #eee;
+    height: 75%;
+    flex-grow: 1;
+    max-width: 2px;
+    z-index: 0;
+  }
+
+    /* Right side of the carousel */
+  div.carousel-content-container #flex-scene #right-zone {
+    background: #fff;
+    height: 100%;
+    flex-grow: 3;
+  }
+  

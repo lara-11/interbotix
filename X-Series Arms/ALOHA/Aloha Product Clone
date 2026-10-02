@@ -1,0 +1,567 @@
+<div class="bunker-pro-grey-box" style="padding: 8px 15px; list-style: none; background-color: rgb(245, 245, 245); border-radius: 4px; color: rgb(237, 111, 109); text-align: center;">
+    <strong><span style="font-size: 16px;">Please contact us for a quote! trsupport@trossenrobotics.com | 866-478-3731
+      &nbsp;&nbsp;</span></strong>
+</div>
+<!--StartFragment-->
+<p class="bunker-pro-prev-text">
+Move beyond research lab tabletops and into real-world robot training with Mobile ALOHA. It's not just a mobile bimanual robot, it's a powerful platform for collecting and replaying high-quality imitation learning data. Mobile ALOHA is more than just a robot, it's a key that unlocks the potential of imitation learning for real-world bimanual manipulation. Take your research or development to the next level. Contact us today to learn more!
+
+</p>
+<p></p>
+<figure class="mobile_aloha_banner">
+    <img src="/Shared/Unitree/mobile_aloha_banner.PNG" data-image="0">
+</figure>
+<!--EndFragment-->
+<!--BUNKER-PRO-->
+<div class="bunker-pro-flex">
+    <div class="bunker-pro-box1">
+        <h1 class="bunker-pro-h1">Effortless Data Collection:</h1>
+
+  <p class="bunker-pro-p" style="text-align: justify">
+          
+Whole-body Teleoperation: Control both the mobile base and ALOHA's bimanual arms intuitively, like puppeteering, to easily record demonstrations.
+  </p> 
+  
+	<p class="bunker-pro-p" style="text-align: justify">
+          
+Multiple Hours of Continuous Usage: Train for extended periods, tackling complex tasks like cooking a meal or cleaning an entire room.
+	</p>
+
+  <p class="bunker-pro-p" style="text-align: justify">
+        Low Cost, Accessible Hardware: Mobile ALOHA leverages the proven ALOHA system with an inexpensive mobile base, making it an affordable and practical choice for researchers.
+  </p>
+        
+    </div>
+
+    <div class="bunker-pro-box2">
+        <video id="example_video_1" class="video-js vjs-default-skin" width="640" height="360" controls="" autoplay="" muted="" src="/Shared/mobile-aloha.mp4" type="video/mp4" <="" video="">
+    </video></div>
+</div>
+<!--BUNKER-PRO PT2-->
+<div class="bunker-pro-flex2">
+    <div class="bunker-pro2-box1">
+        <h1 class="bunker-pro2-h1">Boost Learning with Co-training:</h1>
+
+          <p class="bunker-pro-p" style="text-align: justify">
+          
+Leverage Existing Datasets: Bridge the gap between tabletop and mobile manipulation with co-training. Utilize readily available static ALOHA data to jumpstart learning and improve performance on mobile tasks.
+
+  </p> 
+  
+	<p class="bunker-pro-p" style="text-align: justify">
+          
+Data Efficiency: Achieve impressive results with minimal data. Train Mobile ALOHA with only 50 demonstrations per task, significantly reducing your data collection effort.
+
+	</p>
+
+  <p class="bunker-pro-p" style="text-align: justify">
+        Fine-tune for Real-World Scenarios: Co-training provides a strong foundation for adapting to diverse environments and challenges, making Mobile ALOHA truly real-world ready.
+
+  </p>
+
+  </div>
+    <div class="bunker-pro2-box2">
+        <video id="example_video_1" class="video-js vjs-default-skin" width="640" height="360" controls="" autoplay="" muted="" src="/Shared/teleop_restroom_10x_speed.mp4" type="video/mp4" <="" video="">
+      </video></div>
+    </div>
+<!--BUNKER-PRO PT3-->
+<div class="bunker-pro-flex2">
+    <div class="bunker-pro2-box1">
+        <h1 class="bunker-pro2-h1">Unleash the Potential of Bimanual Mobile Manipulation:
+</h1>
+
+          <p class="bunker-pro-p" style="text-align: justify">
+          
+Master Everyday Tasks: Navigate cluttered spaces, open cabinets, manipulate delicate objects, and even cook a simple meal.
+
+
+  </p> 
+  
+	<p class="bunker-pro-p" style="text-align: justify">
+          
+Go Beyond the Lab: Train robots for real-world applications like home automation, office assistance, and industrial tasks.
+
+	</p>
+
+  <p class="bunker-pro-p" style="text-align: justify">
+Accelerate Research and Development: Mobile ALOHA provides a platform for exploring the frontiers of bimanual mobile manipulation, opening doors to exciting new possibilities.
+
+  </p>
+
+    </div>
+
+    <div class="bunker-pro2-box2">
+        <video id="example_video_1" class="video-js vjs-default-skin" width="640" height="360" controls="" autoplay="" muted="" src="/Shared/wipe_wine.mp4" type="video/mp4" <="" video="">
+    </video></div>
+</div>
+
+<!--CONTACT-->
+<div class="xseries-contact-box1">
+    <div class="contact-left-wrap2">
+        <figure class="contact-img">
+            <img src="/Shared/Contact-form-banner/contactpic.png" class="xseries-contact-banner" data-image="0">
+        </figure>
+
+        <div class="contact-info">
+            <h1 class="xseries-contact-questions">Have questions?</h1>
+            <div class="xseries-contact-line"></div>
+            <p class="questions-text">Give us a call: <a href="tel:866-478-3731"><b>866-478-3731</b></a></p>
+            <p class="questions-text">or fill out the form and one of our experts will be happy to follow up!</p>
+        </div>
+    </div>
+
+    <div class="contact-container">
+        <h1 class="contact-title">Speak with a Roboticist</h1>
+
+        <!--This is the contact form-->
+        $$CONTACTFORM12804$$
+    </div>
+
+    <!--THERE WILL BE A BLACK BOX HERE-->
+    <!--<div class="black-box"></div>-->
+    <figure class="xseries-secondimg-background">
+        <img src="/Shared/XSeries/contact_square.jpg" data-image="0" class="contact-img2">
+    </figure>
+
+</div>
+<div class="black-box2"></div>
+
+<style>
+    div.container {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .breadcrumb {
+        max-width: 1400px;
+        margin: 42px auto 20px auto;
+    }
+
+    .pad-b-only {
+        max-width: 1400px;
+        margin: auto;
+    }
+
+    /* BUNKER-PRO */
+    div.bunker-pro-grey-box {
+        max-width: 1400px;
+        margin: 0px auto 20px auto;
+    }
+
+    p.bunker-pro-prev-text {
+        max-width: 1400px;
+        margin: 0px auto 20px auto;
+        text-align: justify;
+    }
+
+    figure.bunker-pro-banner-home {
+        margin: 0px 35px 0px 35px;
+    }
+
+    /* MOBILE */
+    @media only screen and (max-width: 736px) {
+        div.bunker-pro-grey-box {
+            margin: 0px 0px 20px 0px;
+        }
+
+        p.bunker-pro-prev-text {
+            margin: 0px 0px 20px 0px;
+        }
+
+        figure.bunker-pro-banner-home {
+            margin: 0px 0px 0px 0px;
+        }
+    }
+
+    figure.mobile_aloha_banner {
+        max-width: 1400px;
+        margin: auto;
+    }
+
+    /* BUNKER-PRO CUSTOM */
+    div.bunker-pro-flex {
+        display: flex;
+        justify-content: center;
+        max-width: 1400px;
+        margin: auto;
+    }
+
+    div.bunker-pro-box1 {
+        width: 950px;
+        padding: 40px 40px 40px 40px;
+    }
+
+    h1.bunker-pro-h1 {
+        font-weight: bold;
+        font-size: 31px;
+        text-align: left;
+        color: #1a272d;
+    }
+
+    p.bunker-pro-p {
+        text-align: justify;
+    }
+
+    p.bunker-pro-p-1 {
+        margin: 18px 0px 16px 35px;
+    }
+
+    p.bunker-pro-p-2 {
+        margin: 18px 0px 16px 35px;
+    }
+
+    p.bunker-pro-p-3 {
+        margin: 18px 0px 16px 35px;
+    }
+
+    div.bunker-pro-specs-1 {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    div.bunker-pro-specs-2 {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    div.bunker-pro-specs-3 {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    div.bunker-pro-box2 {
+        padding: 90px 50px 0px 0px;
+        width: 900px;
+    }
+
+    /* TABLET */
+    @media only screen and (max-width: 1024px) {
+        div.bunker-pro-flex {
+            flex-flow: wrap;
+        }
+
+        div.bunker-pro-box1 {
+            padding: 20px 40px 0px 40px;
+        }
+
+        h1.bunker-pro-h1 {
+            text-align: left;
+            font-size: 50px;
+            max-width: 100%;
+        }
+
+        p.bunker-pro-p {
+            font-size: 15px;
+            max-width: 100%;
+            margin-bottom: 0px;
+        }
+
+        div.bunker-pro-box2 {
+            padding: 0px 100px 0px 100px;
+        }
+    }
+
+    /* MOBILE */
+    @media only screen and (max-width: 736px) {
+        div.bunker-pro-box1 {
+            padding: 0px;
+        }
+
+        h1.bunker-pro-h1 {
+            font-size: 8.3vw;
+            text-align: left;
+        }
+
+        p.bunker-pro-p {
+            font-size: 14px;
+        }
+
+        p.bunker-pro-p-1 {
+            font-size: 13.5px;
+        }
+
+        p.bunker-pro-p-2 {
+            font-size: 13.5px;
+        }
+
+        p.bunker-pro-p-3 {
+            font-size: 13.5px;
+        }
+
+        div.bunker-pro-box2 {
+            padding: 0px 0px 10px 0px;
+        }
+
+        figure.bunker-pro-img1 {
+            padding-top: 20px;
+        }
+    }
+
+    /* BUNKER-PRO PT2 */
+    div.bunker-pro-flex2 {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        max-width: 1400px;
+    }
+
+    div.bunker-pro2-box1 {
+        width: 950px;
+        padding: 40px 40px 40px 40px;
+    }
+
+    h1.bunker-pro2-h1 {
+        font-weight: bold;
+        font-size: 31px;
+        text-align: left;
+        color: #1a272d;
+    }
+
+    p.bunker-pro2-p {
+        text-align: justify;
+    }
+
+    p.bunker-pro2-p-1 {
+        margin: 18px 0px 16px 35px;
+    }
+
+    p.bunker-pro2-p-2 {
+        margin: 18px 0px 16px 35px;
+    }
+
+    p.bunker-pro2-p-3 {
+        margin: 18px 0px 16px 35px;
+    }
+
+    div.bunker-pro2-specs-1 {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    div.bunker-pro2-specs-2 {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    div.bunker-pro2-specs-3 {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    div.bunker-pro2-box2 {
+        padding: 90px 50px 0px 0px;
+        width: 900px;
+    }
+
+    div.container.p-20 {
+        display: none;
+    }
+
+    /* TABLET */
+    @media only screen and (max-width: 1024px) {
+        div.bunker-pro2-flex2 {
+            flex-flow: wrap;
+        }
+
+        div.bunker-pro2-box1 {
+            padding: 20px 40px 0px 40px;
+        }
+
+        h1.bunker-pro2-h1 {
+            text-align: left;
+            font-size: 50px;
+            max-width: 100%;
+        }
+
+        p.bunker-pro2-p {
+            font-size: 15px;
+            max-width: 100%;
+            margin-bottom: 0px;
+        }
+
+        div.bunker-pro2-box2 {
+            padding: 0px 100px 0px 100px;
+        }
+    }
+
+    /* MOBILE */
+    @media only screen and (max-width: 736px) {
+        div.bunker-pro2-box1 {
+            padding: 0px;
+        }
+
+        h1.bunker-pro2-h1 {
+            font-size: 8.3vw;
+            text-align: left;
+        }
+
+        p.bunker-pro2-p {
+            font-size: 14px;
+        }
+
+        p.bunker-pro2-p-1 {
+            font-size: 13.5px;
+        }
+
+        p.bunker-pro2-p-2 {
+            font-size: 13.5px;
+        }
+
+        p.bunker-pro2-p-3 {
+            font-size: 13.5px;
+        }
+
+        div.bunker-pro2-box2 {
+            padding: 0px 0px 10px 0px;
+        }
+
+        figure.bunker-pro2-img1 {
+            padding-top: 20px;
+        }
+    }
+
+/* CONTACT */ 
+  div.xseries-contact-box1 {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    background: #ededed;
+  }
+
+  div.contact-left-wrap2 {
+    flex-wrap: wrap;
+    width: 1100px;
+    background: #ededed;
+  }
+
+  h1.xseries-contact-questions {
+    font-size: 3.5vw;
+    color: #1a272d;
+  }
+
+  div.xseries-contact-line {
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 215px 15px 0px;
+  }
+
+  div.black-box2 {
+    width: 100%;
+    height: 50px;
+    background: #ededed;
+  }
+
+  div#ctl46_dvControl {
+    margin-top: 0px;
+  }
+  
+  /* Edits the text area for the contact form */
+  input#ctl46_ctlContactForm_rpFormField_ctl00_txtField, input#ctl46_ctlContactForm_rpFormField_ctl01_txtField, input#ctl46_ctlContactForm_rpFormField_ctl02_txtField, input#ctl46_ctlContactForm_rpFormField_ctl03_txtField, input#ctl46_ctlContactForm_rpFormField_ctl04_txtField, input#ctl46_ctlContactForm_rpFormField_ctl05_txtField {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #333333; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 10px; 
+    resize: vertical;
+  }
+  
+  /* Color of border on hover */
+  input#ctl46_ctlContactForm_rpFormField_ctl00_txtField:hover, input#ctl46_ctlContactForm_rpFormField_ctl01_txtField:hover, input#ctl46_ctlContactForm_rpFormField_ctl02_txtField:hover, input#ctl46_ctlContactForm_rpFormField_ctl03_txtField:hover, input#ctl46_ctlContactForm_rpFormField_ctl04_txtField:hover, input#ctl46_ctlContactForm_rpFormField_ctl05_txtField:hover {
+    border: 1px solid #007cc4;
+  }
+  
+  /* Makes message box longer */
+  input#ctl46_ctlContactForm_rpFormField_ctl05_txtField {
+    padding-bottom: 120px;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input#ctl46_ctlContactForm_btnSubmit {
+    background-color:  #007cc4;
+    color: white;
+    padding: 15px 50px;
+    margin-top: 0px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input#ctl46_ctlContactForm_btnSubmit:hover {
+    background-color: white;
+    color: #007cc4;
+  }
+
+  /* Closes gap between title text & name section */
+div#ctl46_dvControl.Control.ContactForm.Control_12777 {
+    margin-top: 0px;
+  }
+
+  input#ctl46_ctlContactForm_rpFormField_ctl06_rblFields_1 {
+    margin-left: 15px;
+  }
+
+  figure.xseries-secondimg-background {
+    background: #ededed;
+  }
+
+  /* TABLET */
+@media only screen and (max-width: 1024px) {
+    div.xseries-contact-box1 {
+        flex-flow: wrap;
+        justify-content: center;
+        margin-top: 0px;
+      }
+
+    h1.xseries-contact-questions {
+        font-size: 60px;
+      }
+
+      div.xseries-contact-line {
+        margin: 10px 326px 15px 0px;
+      }
+    }
+
+      /* MOBILE */
+@media only screen and (max-width: 736px) {
+    div.xseries-contact-box1 {
+        flex-flow: wrap;
+        margin-bottom: 0PX;
+      }
+
+      div.contact-info {
+        padding: 35px 30px 30px 30px;
+    }
+
+    h1.xseries-contact-questions {
+        font-size: 44px;
+        margin-top: 0px;
+      }
+
+      div.xseries-contact-line {
+        margin: 10px 165px 15px 0px;
+      }
+
+      input#ctl46_ctlContactForm_rpFormField_ctl00_txtField, input#ctl46_ctlContactForm_rpFormField_ctl01_txtField, input#ctl46_ctlContactForm_rpFormField_ctl02_txtField, input#ctl46_ctlContactForm_rpFormField_ctl03_txtField, input#ctl46_ctlContactForm_rpFormField_ctl04_txtField, input#ctl46_ctlContactForm_rpFormField_ctl05_txtField {
+        padding: 10px;  
+        margin-top: 1px; 
+        margin-bottom: 0px; 
+      }
+    }
+
+    .overview-description.hide-sec {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .overview-description {
+        padding: 0px;
+    }
+
+    /* DOCUMENTATION */
+    div.Control.Control_10837 {
+        max-width: 1400px;
+        margin: auto;
+    }
+</style>

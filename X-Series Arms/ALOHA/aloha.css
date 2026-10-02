@@ -1,0 +1,1129 @@
+/* ALOHA */
+div.page-container {
+  margin-top: 70px;
+}
+
+#interbotix-vid,
+#balance-vid,
+#battery-vid,
+#lid-vid,
+#tape-vid,
+#ziploc-vid,
+#obs-vid,
+#cup-vid,
+.university-img {
+  width: 100%;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+a {
+  color: #00b0f0;
+}
+
+a:hover {
+  text-decoration: none;
+  transition-duration: 0.5s;
+  color: black;
+}
+
+/* SECTION 1 */
+div.container1 {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1.sec1-h1 {
+  max-width: 50vw;
+  font-size: 2.3vw;
+  font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.sec1-line {
+  width: 280px;
+  height: 2px;
+  background: #1a272d;
+  margin: 15px auto 15px auto;
+}
+
+div.sec1-name-con {
+  max-width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3.sec1-h3,
+h3.sec1-h3-2 {
+  font-size: 1.5vw;
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  div.page-container {
+    margin-top: 0px;
+  }
+
+  h1.sec1-h1 {
+    max-width: 700px;
+    font-size: 3vw;
+  }
+
+  h3.sec1-h3,
+  h3.sec1-h3-2 {
+    font-size: 1.75vw;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  h1.sec1-h1 {
+    max-width: 500px;
+    font-size: 4.5vw;
+  }
+
+  div.sec1-line {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  h3.sec1-h3,
+  h3.sec1-h3-2 {
+    font-size: 2.5vw;
+  }
+
+  h1.sec2-h1 {
+    font-size: 3.5vw;
+  }
+}
+
+/* MOBILE SMALL*/
+@media only screen and (max-width: 500px) {
+  div.page-container {
+    margin-top: 0px;
+  }
+
+  DIV.container1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  h1.sec1-h1 {
+    font-size: 6.5vw;
+  }
+
+  h3.sec1-h3,
+  h3.sec1-h3-2 {
+    font-size: 4.5vw;
+  }
+}
+
+/* SECTION 2 */
+div.container2 {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+div.sec2-box1 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h1.sec2-h1 {
+  max-width: 90vw;
+  margin: 30px auto 30px auto;
+  font-weight: 400;
+  font-size: 2vw;
+}
+
+div.img-container2 {
+  display: flex;
+  max-width: 77vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure.stanford-con-img,
+figure.berkeley-con-img,
+figure.meta-con-img {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+img.stanford-img,
+img.berkeley-img,
+img.meta-img {
+  width: 800px;
+}
+
+div.sec2-box2 {
+  position: relative;
+}
+
+video.sec2-box2-vid {
+  position: relative;
+}
+
+div.sec2-box2-content {
+  position: absolute;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px 20px 60px 70px;
+}
+
+h1.sec2-box2-h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 1.5vw;
+}
+
+#learn-more-btn {
+  max-width: 165px;
+  font-size: 0.85vw;
+  padding: 15px 30px;
+  border: none;
+  background: #007cc4;
+  color: #fff;
+  cursor: pointer;
+}
+
+#learn-more-btn:hover {
+  /* background: white;
+  color: #007cc4; */
+  transform: scale(1.1);
+  transform: scale(1.05, 1.07);
+  transition-timing-function: ease-out;
+  transition-duration: 250ms;
+  -moz-transform: scale(1.05, 1.07);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 250ms;
+}
+
+/* Nest Hub Max */
+@media only screen and (max-width: 1280px) {
+  h1.sec2-h1 {
+    font-size: 2.3vw;
+  }
+
+  div.img-container2 {
+    max-width: 80vw;
+  }
+
+  h1.sec2-box2-h1 {
+    font-size: 2vw;
+  }
+
+  #learn-more-btn {
+    font-size: 1vw;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  h1.sec2-h1 {
+    font-size: 2.4vw;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  div.img-container2 {
+    justify-content: center;
+    flex-flow: wrap;
+  }
+
+  figure.stanford-con-img,
+  figure.berkeley-con-img,
+  figure.meta-con-img {
+    max-width: 395px;
+  }
+
+  div.sec2-box2-content {
+    padding-bottom: 30px;
+    padding-left: 40px;
+  }
+
+  h1.sec2-box2-h1 {
+    font-size: 3.2vw;
+  }
+
+  #learn-more-btn {
+    font-size: 1.6vw;
+  }
+}
+
+/* MOBILE SMALL*/
+@media only screen and (max-width: 500px) {
+  div.container2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  h1.sec2-h1 {
+    font-size: 4.5vw;
+  }
+
+  div.sec2-box2-content {
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  h1.sec2-box2-h1 {
+    font-size: 4vw;
+  }
+
+  #learn-more-btn {
+    font-size: 2.5vw;
+    padding: 10px 20px 10px 20px;
+  }
+}
+
+/* SECTION 3 */
+div.container3 {
+  display: flex;
+  justify-content: center;
+  max-width: 73vw;
+  margin: 30px auto 30px auto;
+}
+
+div.sec3-box1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0px 25px 0px 25px;
+}
+
+h1.sec3-h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2.3vw;
+}
+
+div.sec3-line {
+  width: 280px;
+  height: 2px;
+  background: #1a272d;
+  margin: 15px auto 15px auto;
+}
+
+p.sec3-p {
+  max-width: 800px;
+  font-size: 0.95vw;
+  text-align: justify;
+}
+
+div.sec3-box2 {
+  padding: 0px 25px 0px 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Nest Hub Max */
+@media only screen and (max-width: 1280px) {
+  div.container3 {
+    max-width: 76vw;
+  }
+
+  div.sec3-box1 {
+    max-width: 500px;
+  }
+
+  h1.sec3-h1 {
+    font-size: 2.5vw;
+  }
+
+  p.sec3-p {
+    font-size: 1.2vw;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  div.container3 {
+    max-width: 80vw;
+  }
+
+  div.sec3-box1 {
+    max-width: 400px;
+  }
+
+  h1.sec3-h1 {
+    font-size: 2.8vw;
+  }
+
+  p.sec3-p {
+    font-size: 1.3vw;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  div.container3 {
+    flex-flow: wrap;
+  }
+
+  div.sec3-box1 {
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  h1.sec3-h1 {
+    font-size: 5vw;
+  }
+
+  p.sec3-p {
+    font-size: 2vw;
+  }
+}
+
+/* MOBILE SMALL*/
+@media only screen and (max-width: 500px) {
+  div.container3 {
+    max-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  div.sec3-box1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  h1.sec3-h1 {
+    font-size: 7vw;
+  }
+
+  p.sec3-p {
+    font-size: 14px;
+  }
+}
+
+/* SECTION 4 */
+div.container4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+figure.teleoperated-con-img {
+  max-width: 72vw;
+}
+
+img.teleoperated-img {
+  width: 100%;
+}
+
+/* Nest Hub Max */
+@media only screen and (max-width: 1280px) {
+  figure.teleoperated-con-img {
+    max-width: 74vw;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  figure.teleoperated-con-img {
+    max-width: 77vw;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  figure.teleoperated-con-img {
+    max-width: 75vw;
+  }
+}
+
+/* MOBILE SMALL*/
+@media only screen and (max-width: 500px) {
+  div.container4 {
+    margin: 15px;
+  }
+
+  figure.teleoperated-con-img {
+    max-width: 100%;
+  }
+}
+
+/* SECTION 5 */
+div.container5 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+div.sec5-box1 {
+  padding-bottom: 30px;
+}
+
+h1.sec5-h1 {
+  max-width: 750px;
+  font-size: 2.6vw;
+  font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.sec5-line {
+  width: 280px;
+  height: 2px;
+  background: #1a272d;
+  margin: 15px auto 15px auto;
+}
+
+p.sec5-p {
+  font-size: 0.95vw;
+  max-width: 750px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.sec5-box2 {
+  display: flex;
+  justify-content: center;
+}
+
+video.sec5-box2-vid1,
+video.sec5-box2-vid2,
+video.sec5-box2-vid3 {
+  max-width: 24vw;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Nest Hub Max */
+@media only screen and (max-width: 1280px) {
+  h1.sec5-h1 {
+    font-size: 2.5vw;
+  }
+
+  p.sec5-p {
+    font-size: 1.2vw;
+    max-width: 650px;
+  }
+
+  video.sec5-box2-vid1,
+  video.sec5-box2-vid2,
+  video.sec5-box2-vid3 {
+    max-width: 24.5vw;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  h1.sec5-h1 {
+    font-size: 2.8vw;
+  }
+
+  p.sec5-p {
+    font-size: 1.3vw;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  div.container5 {
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.sec5-box1 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+  }
+
+  h1.sec5-h1 {
+    font-size: 5vw;
+  }
+
+  p.sec5-p {
+    font-size: 2vw;
+    text-align: justify;
+  }
+
+  div.sec5-box2 {
+    flex-flow: wrap;
+  }
+
+  video.sec5-box2-vid1,
+  video.sec5-box2-vid2,
+  video.sec5-box2-vid3 {
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+/* MOBILE SMALL*/
+@media only screen and (max-width: 500px) {
+  div.container5 {
+    max-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  h1.sec5-h1 {
+    font-size: 7vw;
+  }
+
+  p.sec5-p {
+    font-size: 14px;
+  }
+
+  video.sec5-box2-vid1,
+  video.sec5-box2-vid2,
+  video.sec5-box2-vid3 {
+    padding: 10px 25px 10px 25px;
+  }
+}
+
+/* SECTION 6 */
+div.container6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+figure.viperx-con-img {
+  max-width: 73vw;
+}
+
+img.viperx-img {
+  width: 100%;
+}
+
+/* Nest Hub Max */
+@media only screen and (max-width: 1280px) {
+  figure.viperx-con-img {
+    max-width: 74vw;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  figure.viperx-con-img {
+    max-width: 77vw;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  figure.viperx-con-img {
+    max-width: 75vw;
+  }
+}
+
+/* MOBILE SMALL*/
+@media only screen and (max-width: 500px) {
+  div.container6 {
+    margin: 15px;
+  }
+
+  figure.viperx-con-img {
+    max-width: 100%;
+  }
+}
+
+/* SECTION 7 */
+div.container7 {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+div.sec7-box1 {
+  padding-bottom: 30px;
+}
+
+h1.sec7-box1-h1 {
+  max-width: 750px;
+  font-size: 2.6vw;
+  font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.sec7-box1-line {
+  width: 280px;
+  height: 2px;
+  background: #1a272d;
+  margin: 15px auto 15px auto;
+}
+
+p.sec7-box1-p {
+  font-size: 0.95vw;
+  max-width: 750px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.sec7-box2-con1,
+div.sec7-box2-con2,
+div.sec7-box2-con3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 20px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 77vw;
+}
+
+h1.sec7-box2-h1 {
+  font-size: 1.95vw;
+  text-align: center;
+  margin: auto 30px auto 0px;
+}
+
+div.sec7-box2-line {
+  width: 120px;
+  height: 2px;
+  background: #1a272d;
+  margin: 15px auto 15px auto;
+}
+
+video.sec7-box2-vid1,
+video.sec7-box2-vid2,
+video.sec7-box2-vid3 {
+  max-width: 52vw;
+  margin: 0px 0px 0px 80px;
+}
+
+/* Nest Hub Max */
+@media only screen and (max-width: 1280px) {
+  h1.sec7-box1-h1 {
+    font-size: 2.5vw;
+  }
+
+  p.sec7-box1-p {
+    font-size: 1.2vw;
+    max-width: 650px;
+  }
+
+  h1.sec7-box2-h1 {
+    margin: auto 25px auto 0px;
+  }
+
+  video.sec7-box2-vid1,
+  video.sec7-box2-vid2,
+  video.sec7-box2-vid3 {
+    max-width: 52vw;
+    margin: 0px 0px 0px 25px;
+  }
+
+  div.sec7-box2-con1,
+  div.sec7-box2-con2,
+  div.sec7-box2-con3 {
+    max-width: 80vw;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  h1.sec7-box1-h1 {
+    font-size: 2.8vw;
+  }
+
+  p.sec7-box1-p {
+    font-size: 1.3vw;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  div.container7 {
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.sec7-box1 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+  }
+
+  h1.sec7-box1-h1 {
+    font-size: 5vw;
+  }
+
+  p.sec7-box1-p {
+    font-size: 2vw;
+    text-align: justify;
+  }
+
+  div.sec7-box2-con1,
+  div.sec7-box2-con2,
+  div.sec7-box2-con3 {
+    flex-flow: wrap;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  h1.sec7-box2-h1 {
+    font-size: 4vw;
+    margin: auto 0px auto 0px;
+  }
+
+  video.sec7-box2-vid1,
+  video.sec7-box2-vid2,
+  video.sec7-box2-vid3 {
+    max-width: 100%;
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+/* MOBILE SMALL*/
+@media only screen and (max-width: 500px) {
+  div.container7 {
+    max-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  h1.sec7-box1-h1 {
+    font-size: 7vw;
+  }
+
+  p.sec7-box1-p {
+    font-size: 14px;
+  }
+
+  h1.sec7-box2-h1 {
+    font-size: 7vw;
+  }
+
+  div.sec7-box2-con1,
+  div.sec7-box2-con2,
+  div.sec7-box2-con3 {
+    max-width: 100%;
+  }
+}
+
+/* SECTION 8 */
+div.container8 {
+  margin-top: 30px;
+}
+
+div.sec8-box1 {
+  position: relative;
+}
+
+figure.university-con-img {
+  min-height: 45vh;
+  position: relative;
+  background-image: url('/Shared/XSeries/ALOHA/labfeature.webp');
+  background-size: cover;
+}
+
+/* Add an overlay with semi-transparent background color */
+figure.university-con-img::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+div.sec8-box1-content {
+  position: absolute;
+  bottom: 20%;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
+}
+
+h1.sec8-box1-h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 3.5vw;
+  margin-bottom: 45px;
+}
+
+#quote-btn {
+  max-width: 170px;
+  font-size: 0.75vw;
+  padding: 15px 18px;
+  border: none;
+  background: #007cc4;
+  color: #fff;
+  cursor: pointer;
+}
+
+#quote-btn:hover {
+  /* background: white;
+  color: #007cc4; */
+  transform: scale(1.05, 1.07);
+  transition-timing-function: ease-out;
+  transition-duration: 250ms;
+  -moz-transform: scale(1.05, 1.07);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 250ms;
+}
+
+/* Nest Hub Max */
+@media only screen and (max-width: 1280px) {
+  h1.sec8-box1-h1 {
+    font-size: 3.3vw;
+  }
+
+  #quote-btn {
+    font-size: 1vw;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  h1.sec8-box1-h1 {
+    font-size: 5vw;
+  }
+
+  #quote-btn {
+    font-size: 1.6vw;
+  }
+
+  figure.university-con-img {
+    min-height: 30vh;
+  }
+
+  div.sec8-box1-content {
+    bottom: 5%;
+  }
+}
+
+/* MOBILE SMALL*/
+@media only screen and (max-width: 500px) {
+  div.container8 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  h1.sec8-box1-h1 {
+    font-size: 6vw;
+  }
+
+  #quote-btn {
+    font-size: 2.5vw;
+    padding: 10px 20px 10px 20px;
+  }
+}
+
+/* SECTION 9 */
+div.container9 {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  background: #ededed;
+}
+
+div.sec9-left {
+  flex-wrap: wrap;
+  width: 1100px;
+  background: #ededed;
+}
+
+h1.sec9-question {
+  font-size: 2.6vw;
+  font-weight: 400;
+  color: #1a272d;
+}
+
+div.sec9-line {
+  height: 2px;
+  background: #1a272d;
+  margin: 10px 215px 15px 0px;
+}
+
+p.sec9-call, a.sec9-number, p.sec9-text {
+  font-size: 1.2vw;
+}
+
+div.sec9-box2 {
+  width: 100%;
+  height: 50px;
+  background: #ededed;
+}
+
+img.sec9-img2 {
+  /* transform: scaleX(-1); */
+  width: 408px;
+}
+
+/* Contact form field edits */
+div#ctl45_dvControl {
+  margin-top: 0px;
+}
+
+/* Edits the text area for the contact form */
+input#ctl45_ctlContactForm_rpFormField_ctl00_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl01_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl02_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl03_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl04_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+/* Color of border on hover */
+input#ctl45_ctlContactForm_rpFormField_ctl00_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl01_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl02_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl03_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl04_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl05_txtField:hover {
+  border: 1px solid #007cc4;
+}
+
+/* Makes message box longer */
+input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+  padding-bottom: 120px;
+}
+
+/* Style the submit button with a specific background color etc */
+input#ctl45_ctlContactForm_btnSubmit {
+  background-color: #007cc4;
+  color: white;
+  padding: 15px 50px;
+  margin-top: 0px;
+  border: none;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input#ctl45_ctlContactForm_btnSubmit:hover {
+  background-color: white;
+  color: #007cc4;
+}
+
+/* Closes gap between title text & name section */
+div#ctl45_dvControl.Control.ContactForm.Control_12777 {
+  margin-top: 0px;
+}
+
+input#ctl45_ctlContactForm_rpFormField_ctl06_rblFields_1 {
+  margin-left: 15px;
+}
+
+figure.sec9-img-con2 {
+  background: #ededed;
+}
+
+
+/* DESKTOP */
+@media only screen and (max-width: 2565px) {
+  div.sec9-left {
+    width: auto;
+  }
+
+  img.sec9-banner {
+    width: 1430px;
+  }
+
+  div.contact-info {
+    max-width: 1135px;
+  }
+
+  figure.sec9-img-con2 {
+    width: 530px;
+  }
+
+  img.sec9-img2 {
+    width: 100%;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  div.container9 {
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  h1.sec9-question {
+    font-size: 4.5vw;
+  }
+
+  div.sec9-line {
+    margin: 10px 326px 15px 0px;
+  }
+
+  p.sec9-call, a.sec9-number, p.sec9-text {
+    font-size: 2.1vw;
+  }
+
+  img.sec9-img2 {
+    display: none;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  div.container9 {
+    flex-flow: wrap;
+    margin-bottom: 0PX;
+  }
+
+  div.contact-info {
+    padding: 35px 30px 30px 30px;
+  }
+
+  h1.sec9-question {
+    font-size: 6.5vw;
+    margin-top: 0px;
+  }
+
+  div.sec9-line {
+    margin: 10px 165px 15px 0px;
+  }
+
+  p.sec9-call, a.sec9-number, p.sec9-text {
+    font-size: 16px;
+  }
+
+  input#ctl45_ctlContactForm_rpFormField_ctl00_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl01_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl02_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl03_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl04_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+  }
+}
+
+label {
+  color: white !important;
+}

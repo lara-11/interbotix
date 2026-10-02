@@ -1,0 +1,227 @@
+<!--Standard Contact Info Code-->
+<!--SECTION 9-->
+<div class="container9">
+    <div class="sec9-left">
+        <figure clas="sec9-img-con1">
+            <!--No edits-->
+            <img src="/Shared/XSeries/ALOHA/aloha-banner.jpg" class="sec9-banner" data-image="0">
+        </figure>
+
+        <div class="contact-info">
+            <!--No edits-->
+            <h1 class="sec9-question">Have questions?</h1>
+            <div class="sec9-line"></div>
+            <p class="sec9-call">Give us a call:
+                <a href="tel:866-478-3731" class="sec9-number"><b>866-478-3731</b></a>
+            </p>
+
+            <p class="sec9-text">or fill out the form and one of our experts will be happy to follow up!
+            </p>
+        </div>
+    </div>
+
+    <div class="contact-container">
+        <!--No edits-->
+        <h1 class="contact-title">Speak with a Roboticist</h1>
+        <!--No edits-->
+
+        <!--This is the contact form-->
+        $$CONTACTFORM14333$$
+    </div>
+
+    <!--Right image-->
+    <figure class="sec9-img-con2">
+        <img src="/Shared/XSeries/ALOHA/aloha-bottom.jpg" class="sec9-img2" data-image="0">
+    </figure>
+</div>
+
+<div class="sec9-box2"></div>
+
+<style>
+/* SECTION 9 */
+div.container9 {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  background: #ededed;
+}
+
+div.sec9-left {
+  flex-wrap: wrap;
+  width: 1100px;
+  background: #ededed;
+}
+
+h1.sec9-question {
+  font-size: 3.5vw;
+  color: #1a272d;
+}
+
+div.sec9-line {
+  height: 2px;
+  background: #1a272d;
+  margin: 10px 215px 15px 0px;
+}
+
+p.sec9-call, a.sec9-number, p.sec9-text {
+  font-size: 0.95vw;
+}
+
+div.sec9-box2 {
+  width: 100%;
+  height: 50px;
+  background: #ededed;
+}
+
+img.sec9-img2 {
+  /* transform: scaleX(-1); */
+  width: 408px;
+}
+
+/* Contact form field edits */
+div#ctl45_dvControl {
+  margin-top: 0px;
+}
+
+/* Edits the text area for the contact form */
+input#ctl45_ctlContactForm_rpFormField_ctl00_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl01_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl02_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl03_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl04_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+/* Color of border on hover */
+input#ctl45_ctlContactForm_rpFormField_ctl00_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl01_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl02_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl03_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl04_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl05_txtField:hover {
+  border: 1px solid #007cc4;
+}
+
+/* Makes message box longer */
+input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+  padding-bottom: 120px;
+}
+
+/* Style the submit button with a specific background color etc */
+input#ctl45_ctlContactForm_btnSubmit {
+  background-color: #007cc4;
+  color: white;
+  padding: 15px 50px;
+  margin-top: 0px;
+  border: none;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input#ctl45_ctlContactForm_btnSubmit:hover {
+  background-color: white;
+  color: #007cc4;
+}
+
+/* Closes gap between title text & name section */
+div#ctl45_dvControl.Control.ContactForm.Control_12777 {
+  margin-top: 0px;
+}
+
+input#ctl45_ctlContactForm_rpFormField_ctl06_rblFields_1 {
+  margin-left: 15px;
+}
+
+figure.sec9-img-con2 {
+  background: #ededed;
+}
+
+
+/* DESKTOP */
+@media only screen and (max-width: 2565px) {
+  div.sec9-left {
+    width: auto;
+  }
+
+  img.sec9-banner {
+    width: 1430px;
+  }
+
+  div.contact-info {
+    max-width: 1135px;
+  }
+
+  figure.sec9-img-con2 {
+    width: 530px;
+  }
+
+  img.sec9-img2 {
+    width: 100%;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  div.container9 {
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  h1.sec9-question {
+    font-size: 60px;
+  }
+
+  div.sec9-line {
+    margin: 10px 326px 15px 0px;
+  }
+
+  img.sec9-img2 {
+    display: none;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  div.container9 {
+    flex-flow: wrap;
+    margin-bottom: 0PX;
+  }
+
+  div.contact-info {
+    padding: 35px 30px 30px 30px;
+  }
+
+  h1.sec9-question {
+    font-size: 44px;
+    margin-top: 0px;
+  }
+
+  div.sec9-line {
+    margin: 10px 165px 15px 0px;
+  }
+
+  input#ctl45_ctlContactForm_rpFormField_ctl00_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl01_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl02_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl03_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl04_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+  }
+}
+
+label {
+  color: white !important;
+}
+</style>
