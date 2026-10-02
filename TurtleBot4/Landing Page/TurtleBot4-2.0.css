@@ -1,0 +1,828 @@
+    /* LOCOBOT LANDING PAGE */
+    /* SECTION 1 */
+    figure.locobot-video2 {
+        display: none;
+    }
+
+    /* MOBILE */
+    @media only screen and (max-width: 736px) {
+        figure.locobot-video1 {
+            display: none;
+        }
+
+        figure.locobot-video2 {
+            display: block;
+        }
+    }
+
+    /*SECTION 1.5 */
+    div.point-five-container {
+        padding: 30px 0px 30px 0px;
+        background: #e2f2fb;
+    }
+
+    /* SECTION 2 */
+    div.turtlebot-container2 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    div.turtlebot-sec2-box1 {
+        width: 100%;
+        max-width: 1250px;
+        margin: 0px 40px 0px 40px;
+    }
+
+    h1.turtlebot-sec2-h1 {
+        font-size: 62px;
+        text-align: center;
+        color: #1a272d;
+        margin: 0px 0px 0px 0px;
+    }
+
+    div.turtlebot-sec2-line {
+        height: 2px;
+        background: #1a272d;
+        margin: 15px 800px 10px 800px;
+    }
+
+    div.vs-comparison {
+        display: flex;
+    }
+
+    div.center-align-product {
+        /* border: 1px solid #dddddd; */
+        padding: 8px;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    /* Responsive fix */
+    @media only screen and (max-width: 1176px) {
+        div.turtlebot-container2 {
+            flex-wrap: wrap;
+        }
+    }
+
+    /* TABLET */
+    @media only screen and (max-width: 1024px) {
+        div.turtlebot-container2 {
+            padding-bottom: 40px;
+            flex-flow: wrap;
+        }
+
+        div.turtlebot-sec2-box1 {
+            margin: 0px 40px 0px 40px;
+        }
+
+        h1.turtlebot-sec2-h1 {
+            font-size: 6vw;
+        }
+
+        div.turtlebot-sec2-line {
+            width: auto;
+            margin: 10px 300px 20px 300px;
+        }
+    }
+
+    /* MOBILE */
+    @media only screen and (max-width: 736px) {
+        div.turtlebot-container2 {
+            flex-wrap: wrap;
+            padding: 20px 0px 0px 0px;
+            margin-bottom: 20px;
+        }
+
+        div.turtlebot-sec2-box1 {
+            margin: 0px 0px 0px 0px;
+        }
+
+        h1.turtlebot-sec2-h1 {
+            font-size: 45px;
+            padding: 0px 0px 0px 0px;
+        }
+
+        div.turtlebot-sec2-line {
+            margin: 5px 150px 15px 150px;
+        }
+    }
+
+    /* SECTION 3 */
+    div.turtlebot-container3 {
+        display: flex;
+        justify-content: center;
+        background-color: #dddddd;
+    }
+
+    div.turtlebot-sec3-box1 {
+        width: 100%;
+        max-width: 1250px;
+        margin: 0px 40px 0px 40px;
+    }
+
+    h1.create-title-h1 {
+        margin: 30px 0px 30px 0px;
+    }
+
+    div.center-align-product-base {
+        /* border: 1px solid #dddddd; */
+        padding: 8px;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    /* Responsive fix */
+    @media only screen and (max-width: 1176px) {
+        div.turtlebot-container3 {
+            flex-wrap: wrap;
+        }
+    }
+
+    /* SECTION 4 */
+    div.turtlebot-container4 {
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px 60px 0px;
+    }
+
+    div.turtlebot-sec4-box1 {
+        width: 100%;
+        max-width: 1300px;
+        margin: 0px 40px 0px 40px;
+    }
+
+    b.all-titles {
+        font-size: 23px;
+    }
+
+    p.all-p {
+        margin: 0px 15px 15px 15px;
+    }
+
+    table.turtlebot-sec4-table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    img.turtlebot-logo {
+        width: 200px;
+        margin: 5px 0px 10px 0px;
+    }
+
+    img.locobot-logo {
+        width: 200px;
+        margin: 15px 0px 10px 0px;
+    }
+
+    td.center-align,
+    th.center-align {
+        /* border: 1px solid #dddddd; */
+        padding: 8px;
+        text-align: center;
+        display: flex;
+        flex-flow: column;
+    }
+
+    th.center-align-dark {
+        color: white;
+        background: #00cfff;
+        /* border: 1px solid #00cfff; */
+        /* border-top: 1.1px solid #00cfff; */
+        /* border-left: 1.1px solid #00cfff; */
+        padding: 8px;
+        text-align: center;
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    th.center-align-light {
+        color: white;
+        background: #7be6ff;
+        /* border: 1px solid #7be6ff; */
+        /* border-left: 1.1px solid #7be6ff; */
+        padding: 8px;
+        text-align: center;
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    b {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    img.turtlebot-sec4-same {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img.turtlebot-sec4-img {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p.create-3 {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    /* Computer */
+    img.turtlebot-sec4-4gb {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    img.turtlebot-sec4-8gb {
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 7px;
+    }
+
+    /* LiDAR */
+    img.turtlebot-sec4-a1m8 {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    img.turtlebot-sec4-a2m8 {
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    /* Pan & Tilt */
+    img.turtlebot-sec4-oakd {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 43px;
+    }
+
+    img.turtlebot-sec4-dynamixel {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    /* Arm Section */
+    img.turtlebot-sec4-noarm {
+        width: 222px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    img.turtlebot-sec4-arm {
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    /* ROS - ROS2 */
+    img.turtlebot-sec4-ros {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 95px;
+    }
+
+    img.turtlebot-sec4-ros2 {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    /* Responsive fix */
+    @media only screen and (max-width: 1176px) {
+        div.turtlebot-container4 {
+            flex-wrap: wrap;
+        }
+    }
+
+    /* TABLET */
+    @media only screen and (max-width: 1024px) {
+        div.turtlebot-container4 {
+            padding-bottom: 40px;
+            flex-flow: wrap;
+        }
+
+        div.turtlebot-sec4-box1 {
+            margin: 0px 40px 0px 40px;
+        }
+    }
+
+    /* MOBILE */
+    @media only screen and (max-width: 736px) {
+        div.turtlebot-container4 {
+            flex-wrap: wrap;
+            padding: 20px 0px 0px 0px;
+            margin-bottom: 20px;
+        }
+
+        div.turtlebot-sec4-box1 {
+            margin: 0px 0px 0px 0px;
+        }
+
+        th.table-blank-square {
+            width: auto;
+        }
+    }
+
+    /* SECTION 5 */
+    div.locobot-container5 {
+        display: flex;
+        justify-content: center;
+        background: #e2f2fb;
+        margin-bottom: 10px;
+    }
+
+    div.locobot-sec5-box1 {
+        width: 951.3px;
+        padding: 90px 50px 80px 120px;
+    }
+
+    h1.locobot-sec5-h1 {
+        max-width: 670px;
+        text-align: left;
+        font-size: 48px;
+        color: #1a272d;
+        margin-top: 0px;
+    }
+
+    div.locobot-sec5-line {
+        height: 2px;
+        background: #1a272d;
+        margin: 10px 290px 15px 0px;
+    }
+
+    p.locobot-sec5-p {
+        max-width: 670px;
+        text-align: justify;
+    }
+
+    div.locobot-sec5-box2 {
+        padding: 50px 120px 50px 50px;
+    }
+
+    iframe.locobot-sec5-video {
+        width: 700px;
+        height: 380px;
+        max-width: 100%;
+    }
+
+    /* RESPONSIVE */
+    @media only screen and (max-width: 1250px) {
+        div.locobot-container5 {
+            flex-flow: wrap;
+            padding: 40px 80px 20px 80px;
+        }
+
+        div.locobot-sec5-box1 {
+            padding: 40px 80px 20px 80px;
+        }
+
+        h1.locobot-sec5-h1 {
+            max-width: 100%;
+        }
+
+        p.locobot-sec5-p {
+            max-width: 100%;
+        }
+
+        div.locobot-sec5-box2 {
+            padding: 20px 50px 60px 50px;
+        }
+    }
+
+    /* TABLET */
+    @media only screen and (max-width: 1024px) {
+        div.locobot-container5 {
+            flex-flow: wrap;
+            padding: 40px 0px 20px 0px;
+        }
+
+        div.locobot-sec5-box1 {
+            padding: 40px 0px 20px 0px;
+        }
+
+        div.locobot-sec5-box2 {
+            padding: 20px 100px 40px 100px;
+        }
+
+        h1.locobot-sec5-h1 {
+            text-align: left;
+            max-width: 100%;
+            margin: 0px 100px 5px 100px;
+        }
+
+        div.locobot-sec5-line {
+            margin: 10px 400px 15px 100px;
+        }
+
+        p.locobot-sec5-p {
+            font-size: 15px;
+            max-width: 100%;
+            margin: 0px 100px 0px 100px;
+        }
+
+        iframe.locobot-sec5-video {
+            width: 650px;
+            height: 340px;
+        }
+    }
+
+    /* MOBILE */
+    @media only screen and (max-width: 736px) {
+        div.locobot-container5 {
+            padding-top: 0px;
+        }
+
+        div.locobot-sec5-box1 {
+            padding: 30px 0px 20px 0px;
+        }
+
+        div.locobot-sec5-box2 {
+            padding: 0px 30px 40px 30px;
+        }
+
+        h1.locobot-sec5-h1 {
+            font-size: 8.8vw;
+            text-align: left;
+            margin: 0px 30px 10px 30px;
+        }
+
+        div.locobot-sec5-line {
+            margin: 10px 200px 15px 30px;
+        }
+
+        p.locobot-sec5-p {
+            font-size: 14px;
+            margin: 0px 30px 0px 30px;
+        }
+
+        iframe.locobot-sec5-video {
+            width: 420px;
+            height: 220px;
+        }
+    }
+
+    /* BOTH CHARTS */
+    a.turtlebot-sec-link-all {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    a.turtlebot-sec-link2-all {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    td,
+    th {
+        /* border: 1px solid #dddddd; */
+        text-align: left;
+        padding: 8px;
+    }
+
+    /* Color of table */
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+
+    /* TABLET */
+    @media only screen and (max-width: 1024px) {
+        a.turtlebot-sec-link-all {
+            font-size: 2vw;
+        }
+
+        a.turtlebot-sec-link2-all {
+            font-size: 2vw;
+        }
+
+        td,
+        th {
+            font-size: 15px;
+        }
+    }
+
+    /* MOBILE */
+    @media only screen and (max-width: 736px) {
+        a.turtlebot-sec-link-all {
+            font-size: 10px;
+            margin: 5px 0px 0px 0px;
+        }
+
+        a.turtlebot-sec-link2-all {
+            font-size: 10px;
+        }
+
+        td,
+        th {
+            font-size: 11px;
+            padding: 5px;
+            width: 100px;
+        }
+    }
+
+    /* SECTION 4 */
+    div.turtlebot-container6 {
+        display: flex;
+        justify-content: center;
+        padding: 40px 0px 25px 0px;
+    }
+
+    div.turtlebot-sec6-box1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0px 40px 0px 40px;
+    }
+
+    h1.turtlebot-sec6-h1 {
+        font-size: 62px;
+        text-align: center;
+        color: #1a272d;
+        margin: 0px 0px 0px 0px;
+    }
+
+    div.turtlebot-sec6-line {
+        height: 2px;
+        background: #1a272d;
+        margin: 15px 450px 30px 450px;
+    }
+
+    table.turtlebot-sec6-table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th.table-blank-square {
+        width: 135px;
+    }
+
+    h1.turtlebot-sec6-models1,
+    h1.turtlebot-sec6-models2,
+    h1.turtlebot-sec6-models3,
+    h1.turtlebot-sec6-models4 {
+        font-size: 17px;
+        text-align: center;
+        color: #1a272d;
+    }
+
+    /* Responsive fix */
+    @media only screen and (max-width: 1176px) {
+        div.turtlebot-container4 {
+            flex-wrap: wrap;
+        }
+    }
+
+    /* TABLET */
+    @media only screen and (max-width: 1024px) {
+        div.turtlebot-container6 {
+            padding-bottom: 40px;
+            flex-flow: wrap;
+        }
+
+        div.turtlebot-sec6-box1 {
+            margin: 0px 40px 0px 40px;
+        }
+
+        h1.turtlebot-sec6-h1 {
+            font-size: 6vw;
+        }
+
+        div.turtlebot-sec6-line {
+            width: auto;
+            margin: 10px 300px 20px 300px;
+        }
+    }
+
+    /* MOBILE */
+    @media only screen and (max-width: 736px) {
+        div.turtlebot-container6 {
+            flex-wrap: wrap;
+            padding: 20px 0px 0px 0px;
+            margin-bottom: 20px;
+        }
+
+        div.turtlebot-sec6-box1 {
+            margin: 0px 0px 0px 0px;
+        }
+
+        th.table-blank-square {
+            width: auto;
+        }
+
+        h1.turtlebot-sec6-h1 {
+            font-size: 45px;
+            padding: 0px 0px 0px 0px;
+        }
+
+        div.turtlebot-sec6-line {
+            margin: 5px 150px 15px 150px;
+        }
+    }
+
+    /* SECTION 10 */
+    div.locobot-container10 {
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+        background: #ededed;
+    }
+
+    div.locobot-left-wrap {
+        flex-wrap: wrap;
+        width: 1100px;
+        background: #ededed;
+    }
+
+    h1.locobot-questions {
+        font-size: 3.5vw;
+        color: #1a272d;
+    }
+
+    div.locobot-line {
+        height: 2px;
+        background: #1a272d;
+        margin: 10px 215px 15px 0px;
+    }
+
+    div.unitree-contact-box2 {
+        width: 100%;
+        height: 50px;
+        background: #ededed;
+    }
+
+    img.unitree-contact-img2 {
+        /* transform: scaleX(-1); */
+        width: 408px;
+    }
+
+    /* Contact form field edits */
+    div#ctl45_dvControl {
+        margin-top: 0px;
+    }
+
+    /* Edits the text area for the contact form */
+    input#ctl45_ctlContactForm_rpFormField_ctl00_txtField,
+    input#ctl45_ctlContactForm_rpFormField_ctl01_txtField,
+    input#ctl45_ctlContactForm_rpFormField_ctl02_txtField,
+    input#ctl45_ctlContactForm_rpFormField_ctl03_txtField,
+    input#ctl45_ctlContactForm_rpFormField_ctl04_txtField,
+    input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #333333;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 10px;
+        resize: vertical;
+    }
+
+    /* Color of border on hover */
+    input#ctl45_ctlContactForm_rpFormField_ctl00_txtField:hover,
+    input#ctl45_ctlContactForm_rpFormField_ctl01_txtField:hover,
+    input#ctl45_ctlContactForm_rpFormField_ctl02_txtField:hover,
+    input#ctl45_ctlContactForm_rpFormField_ctl03_txtField:hover,
+    input#ctl45_ctlContactForm_rpFormField_ctl04_txtField:hover,
+    input#ctl45_ctlContactForm_rpFormField_ctl05_txtField:hover {
+        border: 1px solid #007cc4;
+    }
+
+    /* Makes message box longer */
+    input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+        padding-bottom: 120px;
+    }
+
+    /* Style the submit button with a specific background color etc */
+    input#ctl45_ctlContactForm_btnSubmit {
+        background-color: #007cc4;
+        color: white;
+        padding: 15px 50px;
+        margin-top: 0px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* When moving the mouse over the submit button, add a darker green color */
+    input#ctl45_ctlContactForm_btnSubmit:hover {
+        background-color: white;
+        color: #007cc4;
+    }
+
+    /* Closes gap between title text & name section */
+    div#ctl45_dvControl.Control.ContactForm.Control_12777 {
+        margin-top: 0px;
+    }
+
+    input#ctl45_ctlContactForm_rpFormField_ctl06_rblFields_1 {
+        margin-left: 15px;
+    }
+
+    figure.unitree-secondimg-background {
+        background: #ededed;
+    }
+
+
+    /* DESKTOP */
+    @media only screen and (max-width: 2565px) {
+        div.locobot-left-wrap {
+            width: auto;
+        }
+
+        img.locobot-banner {
+            width: 1430px;
+        }
+
+        div.contact-info {
+            max-width: 1135px;
+        }
+
+        figure.unitree-secondimg-background {
+            width: 530px;
+        }
+
+        img.unitree-contact-img2 {
+            width: 100%;
+        }
+    }
+
+    /* TABLET */
+    @media only screen and (max-width: 1024px) {
+        div.locobot-container10 {
+            flex-flow: wrap;
+            justify-content: center;
+            margin-top: 0px;
+        }
+
+        h1.locobot-questions {
+            font-size: 60px;
+        }
+
+        div.locobot-line {
+            margin: 10px 326px 15px 0px;
+        }
+
+        img.unitree-contact-img2 {
+            display: none;
+        }
+    }
+
+    /* MOBILE */
+    @media only screen and (max-width: 736px) {
+        div.locobot-container10 {
+            flex-flow: wrap;
+            margin-bottom: 0PX;
+        }
+
+        div.contact-info {
+            padding: 35px 30px 30px 30px;
+        }
+
+        h1.locobot-questions {
+            font-size: 44px;
+            margin-top: 0px;
+        }
+
+        div.locobot-line {
+            margin: 10px 165px 15px 0px;
+        }
+
+        input#ctl45_ctlContactForm_rpFormField_ctl00_txtField,
+        input#ctl45_ctlContactForm_rpFormField_ctl01_txtField,
+        input#ctl45_ctlContactForm_rpFormField_ctl02_txtField,
+        input#ctl45_ctlContactForm_rpFormField_ctl03_txtField,
+        input#ctl45_ctlContactForm_rpFormField_ctl04_txtField,
+        input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+            padding: 10px;
+            margin-top: 1px;
+            margin-bottom: 0px;
+        }
+    }
+
+    label {
+        color: white !important;
+    }

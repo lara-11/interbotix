@@ -1,0 +1,1330 @@
+/* LOCOBOT LANDING PAGE */
+/* SECTION 1 */
+figure.locobot-video2 {
+    display: none;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+    figure.locobot-video1 {
+        display: none;
+    }
+
+    figure.locobot-video2 {
+        display: block;
+    }
+}
+
+/* SECTION 2 */
+div.locobot-container2 {
+    display: flex;
+    justify-content: center;
+    background: #ededed;
+    margin-bottom: 10px;
+}
+
+div.locobot-sec2-box1 {
+    width: 951.3px;
+    padding: 115px 50px 100px 120px;
+}
+
+h1.locobot-sec2-h1 {
+    max-width: 670px;
+    text-align: left;
+    font-size: 57px;
+    color: #1a272d;
+    margin-top: 0px;
+}
+
+div.locobot-sec2-line {
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 290px 15px 0px;
+}
+
+p.locobot-sec2-p {
+    max-width: 670px;
+    text-align: justify;
+}
+
+div.locobot-sec2-box2 {
+    padding: 60px 120px 60px 50px;
+}
+
+iframe.locobot-sec2-video {
+    width: 700px;
+    height: 380px;
+    max-width: 100%;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1250px) {
+    div.locobot-container2 {
+        flex-flow: wrap;
+        padding: 40px 80px 20px 80px;
+    }
+
+    div.locobot-sec2-box1 {
+        padding: 40px 80px 20px 80px;
+    }
+
+    h1.locobot-sec2-h1 {
+        max-width: 100%;
+    }
+
+    p.locobot-sec2-p {
+        max-width: 100%;
+    }
+
+    div.locobot-sec2-box2 {
+        padding: 20px 50px 60px 50px;
+    }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+    div.locobot-container2 {
+        flex-flow: wrap;
+        padding: 40px 0px 20px 0px;
+    }
+
+    div.locobot-sec2-box1 {
+        padding: 40px 0px 20px 0px;
+    }
+
+    div.locobot-sec2-box2 {
+        padding: 20px 100px 40px 100px;
+    }
+
+    h1.locobot-sec2-h1 {
+        text-align: left;
+        max-width: 100%;
+        margin: 0px 100px 5px 100px;
+    }
+
+    div.locobot-sec2-line {
+        margin: 10px 400px 15px 100px;
+    }
+
+    p.locobot-sec2-p {
+        font-size: 15px;
+        max-width: 100%;
+        margin: 0px 100px 0px 100px;
+    }
+
+    iframe.locobot-sec2-video {
+        width: 650px;
+        height: 340px;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+    div.locobot-container2 {
+        padding-top: 0px;
+    }
+
+    div.locobot-sec2-box1 {
+        padding: 30px 0px 20px 0px;
+    }
+
+    div.locobot-sec2-box2 {
+        padding: 0px 30px 40px 30px;
+    }
+
+    h1.locobot-sec2-h1 {
+        font-size: 30px;
+        text-align: left;
+        margin: 0px 30px 10px 30px;
+    }
+
+    div.locobot-sec2-line {
+        margin: 10px 200px 15px 30px;
+    }
+
+    p.locobot-sec2-p {
+        font-size: 14px;
+        margin: 0px 30px 0px 30px;
+    }
+
+    iframe.locobot-sec2-video {
+        width: 420px;
+        height: 220px;
+    }
+}
+
+/* SECTION 3 */
+div.turtlebot-container3 {
+    padding: 30px 0px 20px 0px;
+    background: #e2f2fb;
+    margin-bottom: 10px;
+}
+
+h1.turtlebot-sec3-h1 {
+    font-size: 62px;
+    text-align: center;
+    color: #1a272d;
+    margin: 0px 0px 0px 0px;
+}
+
+div.turtlebot-sec3-line {
+    height: 2px;
+    background: #1a272d;
+    margin: 15px 800px 0px 800px;
+}
+
+div.vs-comparison {
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+}
+
+figure.center-align-product {
+    /* border: 1px solid #dddddd; */
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+}
+
+/* VS Images */
+img.turtlebot-img {
+    width: 575px;
+}
+
+img.turtlebot-logo {
+    width: 200px;
+    margin: auto;
+}
+
+img.vs-img {
+    width: 190px;
+}
+
+img.locobot-img {
+    width: 575px;
+}
+
+img.locobot-logo {
+    width: 200px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+/* Responsive fix */
+@media only screen and (max-width: 1700px) {
+    div.turtlebot-sec3-line {
+        margin: 10px 650px 0px 650px;
+    }
+}
+
+/* Responsive fix */
+@media only screen and (max-width: 1400px) {
+    div.turtlebot-sec3-line {
+        margin: 10px 500px 0px 500px;
+    }
+}
+
+/* Responsive fix */
+@media only screen and (max-width: 1176px) {
+    div.turtlebot-container3 {
+        flex-wrap: wrap;
+    }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+    h1.turtlebot-sec3-h1 {
+        font-size: 6vw;
+    }
+
+    div.turtlebot-sec3-line {
+        width: auto;
+        margin: 10px 300px 0px 300px;
+    }
+
+    img.turtlebot-logo {
+        width: 150px;
+    }
+
+    img.locobot-logo {
+        width: 150px;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+    h1.turtlebot-sec3-h1 {
+        font-size: 45px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    div.turtlebot-sec3-line {
+        margin: 5px 110px 15px 110px;
+    }
+
+    img.turtlebot-logo {
+        width: 100px;
+        margin-top: 15px;
+    }
+
+    img.locobot-logo {
+        width: 100px;
+    }
+}
+
+/* BOTH CHARTS */
+/* a.turtlebot-sec-link-all {
+    margin-top: 5px;
+    margin-bottom: 5px;
+} */
+
+a.turtlebot-sec-link2-all {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+td,
+th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 8px;
+}
+
+/* Color of tables */
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr.first:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+tr.first:nth-child(even) {
+    background-color: white;
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+    /* a.turtlebot-sec-link-all {
+        font-size: 2vw;
+    } */
+
+    a.turtlebot-sec-link2-all {
+        font-size: 2vw;
+    }
+
+    td,
+    th {
+        font-size: 15px;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+    /* a.turtlebot-sec-link-all {
+        font-size: 10px;
+        margin: 5px 0px 0px 0px;
+    } */
+
+    tr.first:nth-child(even), tr.first:nth-child(odd) {
+        height: 215px;
+    }
+
+    a.turtlebot-sec-link2-all {
+        font-size: 10px;
+    }
+
+    td,
+    th {
+        font-size: 11px;
+        padding: 5px;
+        width: 100px;
+    }
+}
+
+/* FLEX-ALL-SECTIONS */
+div.flex-all-left {
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+div.flex-all-right {
+    display: flex;
+}
+
+div.vl {
+    border-left: 2px solid #1a272d;
+    height: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* SECTION 4 */
+table.turtlebot-sec4-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td.center-align {
+    /* border: 1px solid #dddddd; */
+    width: 615px;
+    padding: 20px;
+    text-align: center;
+    flex-flow: column;
+}
+
+b {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+b.all-titles {
+    font-size: 23px;
+    color: black;
+}
+
+p.all-p {
+    max-width: 265px;
+    margin: 0px 15px 15px 15px;
+    color: black;
+    text-align: justify;
+}
+
+th.center-align-light {
+    color: white;
+    background: #7be6ff;
+    /* border: 1px solid #7be6ff; */
+    /* border-left: 1.1px solid #7be6ff; */
+    text-align: center;
+    font-size: 20px;
+}
+
+th.center-align-dark {
+    color: white;
+    background: #00cfff;
+    /* border: 1px solid #00cfff; */
+    /* border-top: 1.1px solid #00cfff; */
+    /* border-left: 1.1px solid #00cfff; */
+    text-align: center;
+    font-size: 20px;
+}
+
+/* First Section 4 */
+div.turtlebot-container4 {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 10px 0px;
+}
+
+div.turtlebot-sec4-box1 {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0px 40px 0px 40px;
+}
+
+th.center-align-product-base {
+    /* border: 1px solid #dddddd; */
+    padding: 8px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+img.turtlebot-sec4-same {
+    width: 365px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.create-3 {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+/* Second Section 4 */
+/* Computer */
+div.second-left-fit-auto {
+    height: fit-content;
+    margin: auto;
+}
+
+div.second-right-fit-auto {
+    height: fit-content;
+    margin: auto;
+}
+
+input#show1 {
+    display: none;
+}
+
+input#show2 {
+    display: none;
+}
+
+label#com-left-img {
+    max-width: 215px;
+    height: fit-content;
+    margin: auto;
+}
+
+label#com-right-img {
+    max-width: 215px;
+    height: fit-content;
+    margin: auto;
+}
+
+/* Third Section 4 */
+/* LiDAR */
+div.third-left-fit-auto {
+    height: fit-content;
+    margin: auto;
+}
+
+div.third-right-fit-auto {
+    height: fit-content;
+    margin: auto;
+}
+
+input#show3 {
+    display: none;
+}
+
+input#show4 {
+    display: none;
+}
+
+label#lidar-left-img {
+    max-width: 215px;
+    height: fit-content;
+    margin: auto;
+}
+
+label#lidar-right-img {
+    max-width: 215px;
+    height: fit-content;
+    margin: auto;
+}
+
+/* Fourth Section 4 */
+/* Camera */
+div.fourth-left-fit-auto {
+    height: fit-content;
+    margin: auto;
+}
+
+div.fourth-right-fit-auto {
+    height: fit-content;
+    margin: auto;
+}
+
+input#show5 {
+    display: none;
+}
+
+input#show6 {
+    display: none;
+}
+
+label#camera-left-img {
+    max-width: 215px;
+    height: fit-content;
+    margin: auto;
+}
+
+label#camera-right-img {
+    max-width: 215px;
+    height: fit-content;
+    margin: auto;
+}
+
+/* Fourth point two Section 4 */
+/* Camera Mount */
+div.fourthp2-left-fit-auto {
+    height: fit-content;
+    margin: auto;
+}
+
+div.fourthp2-right-fit-auto {
+    height: fit-content;
+    margin: auto;
+}
+
+input#show5add {
+    display: none;
+}
+
+input#show6add {
+    display: none;
+}
+
+label#camera-mount-left-img {
+    max-width: 215px;
+    height: fit-content;
+    margin: auto;
+}
+
+label#camera-mount-right-img {
+    max-width: 215px;
+    height: fit-content;
+    margin: auto;
+}
+
+/* Fifth Section 4 */
+/* Arm Section */
+div.fifth-left-fit-auto {
+    height: fit-content;
+    margin: auto;
+}
+
+div.fifth-right-fit-auto {
+    height: fit-content;
+    margin: auto;
+}
+
+input#show7 {
+    display: none;
+}
+
+input#show8 {
+    display: none;
+}
+
+label#arm-left-img {
+    max-width: 215px;
+    height: fit-content;
+    margin: auto;
+}
+
+label#arm-right-img {
+    max-width: 215px;
+    height: fit-content;
+    margin: auto;
+}
+
+/* Sixth Section 4 */
+/* ROS - ROS 2 */
+div.sixth-left-fit-auto {
+    height: fit-content;
+    margin: auto;
+}
+
+div.sixth-right-fit-auto {
+    height: fit-content;
+    margin: auto;
+}
+
+input#show9 {
+    display: none;
+}
+
+input#show10 {
+    display: none;
+}
+
+label#ros-left-img {
+    max-width: 215px;
+    height: fit-content;
+    margin: auto;
+}
+
+label#ros-right-img {
+    max-width: 215px;
+    height: fit-content;
+    margin: auto;
+}
+
+input#show {
+    display: none;
+}
+
+/* Responsive fix */
+@media only screen and (max-width: 1176px) {
+    div.turtlebot-container4 {
+        flex-wrap: wrap;
+    }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+    div.turtlebot-container4 {
+        padding-bottom: 10px;
+        flex-flow: wrap;
+    }
+
+    div.turtlebot-sec4-box1 {
+        margin: 0px 40px 0px 40px;
+    }
+
+    img.turtlebot-sec4-same {
+        width: 315px;
+    }
+
+    p.create-3 {
+        font-size: 15px;
+    }
+
+    p.all-p {
+        font-size: 15px;
+    }
+
+    th.center-align-light {
+        font-size: 18px;
+    }
+}
+
+/* Responsive fix */
+@media only screen and (max-width: 965px) {
+    img.turtlebot-sec4-4gb, img.turtlebot-sec4-8gb, img.turtlebot-sec4-a1m8, img.turtlebot-sec4-a2m8, img.turtlebot-sec4-oakd, img.turtlebot-sec4-dynamixel, img.turtlebot-sec4-noarm, img.turtlebot-sec4-arm, img.turtlebot-sec4-ros, img.turtlebot-sec4-ros2, img.turtlebot-sec4p2-nomount, img.turtlebot-sec4p2-mount {
+        display: none;
+    }
+
+    div.vl {
+        display: none;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+    img.turtlebot-sec4-4gb, img.turtlebot-sec4-8gb, img.turtlebot-sec4-a1m8, img.turtlebot-sec4-a2m8, img.turtlebot-sec4-oakd, img.turtlebot-sec4-dynamixel, img.turtlebot-sec4-noarm, img.turtlebot-sec4-arm, img.turtlebot-sec4-ros, img.turtlebot-sec4-ros2, img.turtlebot-sec4p2-nomount, img.turtlebot-sec4p2-mount {
+        display: block;
+    }
+
+    div.turtlebot-container4 {
+        flex-wrap: wrap;
+    }
+
+    div.turtlebot-sec4-box1 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    img.turtlebot-sec4-same {
+        width: 215px;
+    }
+
+    h1.create-title-h1 {
+        font-size: 30px;
+    }
+
+    p.create-3 { 
+        font-size: 14px;
+        margin-right: 22px;
+        margin-left: 22px;
+    }
+
+    td.center-align {
+        width: 41%;
+        padding: 10px;
+    }
+
+    th.center-align-light {
+        font-size: 14px;
+    }
+
+    th.center-align-dark {
+        font-size: 14px;
+    }
+
+    b.all-titles {
+        font-size: 18.3px;
+    }
+
+    p.all-p {
+        font-size: 11px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    div.vl {
+        display: none;
+    }
+
+    /* Second Section 4 */
+    /* Computer */
+    /* This will Hide the Image by default */
+    #show1,
+    #content1 {
+        display: none;
+    }
+
+    /* When section is clicked / IMAGE will appear */
+    #show1:checked~#content1 {
+        display: block;
+    }
+
+    /* When section is clicked / TEXT will disappear */
+    #show1:checked~#more1 {
+        display: none;
+    }
+
+    /* This will Hide the Image by default */
+    #show2,
+    #content2 {
+        display: none;
+    }
+
+    /* When section is clicked / IMAGE will appear */
+    #show2:checked~#content2 {
+        display: block;
+    }
+
+    /* When section is clicked / TEXT will disappear */
+    #show2:checked~#more2 {
+        display: none;
+    }
+
+    /* Third Section 4 */
+    /* LiDAR */
+    /* This will Hide the Image by default */
+    #show3,
+    #content3 {
+        display: none;
+    }
+
+    /* When section is clicked / IMAGE will appear */
+    #show3:checked~#content3 {
+        display: block;
+    }
+
+    /* When section is clicked / TEXT will disappear */
+    #show3:checked~#more3 {
+        display: none;
+    }
+
+    /* This will Hide the Image by default */
+    #show4,
+    #content4 {
+        display: none;
+    }
+
+    /* When section is clicked / IMAGE will appear */
+    #show4:checked~#content4 {
+        display: block;
+    }
+
+    /* When section is clicked / TEXT will disappear */
+    #show4:checked~#more4 {
+        display: none;
+    }
+
+    /* Fourth Section 4 */
+    /* Camera */
+    /* This will Hide the Image by default */
+    #show5,
+    #content5 {
+        display: none;
+    }
+
+    /* When section is clicked / IMAGE will appear */
+    #show5:checked~#content5 {
+        display: block;
+    }
+
+    /* When section is clicked / TEXT will disappear */
+    #show5:checked~#more5 {
+        display: none;
+    }
+
+    /* This will Hide the Image by default */
+    #show6,
+    #content6 {
+        display: none;
+    }
+
+    /* When section is clicked / IMAGE will appear */
+    #show6:checked~#content6 {
+        display: block;
+    }
+
+    /* When section is clicked / TEXT will disappear */
+    #show6:checked~#more6 {
+        display: none;
+    }
+
+    /* Fourth point two Section 4 */
+    /* Camera */
+    /* This will Hide the Image by default */
+    #show5add,
+    #content5add {
+        display: none;
+    }
+
+    /* When section is clicked / IMAGE will appear */
+    #show5add:checked~#content5add {
+        display: block;
+    }
+
+    /* When section is clicked / TEXT will disappear */
+    #show5add:checked~#more5add {
+        display: none;
+    }
+
+    /* This will Hide the Image by default */
+    #show6add,
+    #content6add {
+        display: none;
+    }
+
+    /* When section is clicked / IMAGE will appear */
+    #show6add:checked~#content6add {
+        display: block;
+    }
+
+    /* When section is clicked / TEXT will disappear */
+    #show6add:checked~#more6add {
+        display: none;
+    }
+
+    /* Fifth Section 4 */
+    /* Arm Section */
+    /* This will Hide the Image by default */
+    #show7,
+    #content7 {
+        display: none;
+    }
+
+    /* When section is clicked / IMAGE will appear */
+    #show7:checked~#content7 {
+        display: block;
+    }
+
+    /* When section is clicked / TEXT will disappear */
+    #show7:checked~#more7 {
+        display: none;
+    }
+
+    /* This will Hide the Image by default */
+    #show8,
+    #content8 {
+        display: none;
+    }
+
+    /* When section is clicked / IMAGE will appear */
+    #show8:checked~#content8 {
+        display: block;
+    }
+
+    /* When section is clicked / TEXT will disappear */
+    #show8:checked~#more8 {
+        display: none;
+    }
+
+    /* Sixth Section 4 */
+    /* ROS - ROS 2 */
+    /* This will Hide the Image by default */
+    #show9,
+    #content9 {
+        display: none;
+    }
+
+    /* When section is clicked / IMAGE will appear */
+    #show9:checked~#content9 {
+        display: block;
+    }
+
+    /* When section is clicked / TEXT will disappear */
+    #show9:checked~#more9 {
+        display: none;
+    }
+
+    /* This will Hide the Image by default */
+    #show10,
+    #content10 {
+        display: none;
+    }
+
+    /* When section is clicked / IMAGE will appear */
+    #show10:checked~#content10 {
+        display: block;
+    }
+
+    /* When section is clicked / TEXT will disappear */
+    #show10:checked~#more10 {
+        display: none;
+    }
+}
+
+/* SECTION 5 */
+div.dobot-flex-container4 {
+    display: flex;
+    justify-content: center;
+    background: #e2f2fb;
+    margin-bottom: 10px;
+}
+
+div.dobot-cr-box1 {
+    padding: 60px 50px 60px 120px;
+}
+
+iframe.dobot-cr-video {
+    width: 700px;
+    height: 380px;
+    max-width: 100%;
+}
+
+div.dobot-cr-box2 {
+    padding: 100px 120px 60px 50px;
+}
+
+h1.dobot-cr-h1 {
+    max-width: 670px;
+    text-align: left;
+    font-size: 48px;
+    color: #1a272d;
+    margin-top: 0px;
+}
+
+div.dobot-cr-line {
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 290px 15px 0px;
+}
+
+p.dobot-cr-p {
+    max-width: 670px;
+    text-align: justify;
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+    div.dobot-flex-container4 {
+        flex-flow: wrap-reverse;
+    }
+
+    div.dobot-cr-box1 {
+        padding: 20px 100px 40px 100px;
+    }
+
+    iframe.dobot-cr-video {
+        width: 650px;
+        height: 340px;
+    }
+
+    div.dobot-cr-box2 {
+        padding: 40px 100px 20px 100px;
+    }
+
+    h1.dobot-cr-h1 {
+        text-align: left;
+        max-width: 100%;
+    }
+
+    div.dobot-cr-line {
+        margin: 10px 400px 15px 0px;
+    }
+
+    p.dobot-cr-p {
+        font-size: 15px;
+        max-width: 100%;
+        margin-bottom: 0px;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+    div.dobot-cr-box1 {
+        padding: 0px 30px 40px 30px;
+    }
+
+    iframe.dobot-cr-video {
+        width: 420px;
+        height: 220px;
+    }
+
+    div.dobot-cr-box2 {
+        padding: 30px 30px 20px 30px;
+    }
+
+    h1.dobot-cr-h1 {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    div.dobot-cr-line {
+        margin: 10px 200px 15px 0px;
+    }
+
+    p.dobot-cr-p {
+        font-size: 14px;
+    }
+}
+
+/* SECTION 6 */
+div.turtlebot-container6 {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 25px 0px;
+}
+
+div.turtlebot-sec6-box1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px 40px 0px 40px;
+}
+
+h1.turtlebot-sec6-h1 {
+    font-size: 62px;
+    text-align: center;
+    color: #1a272d;
+    margin: 0px 0px 0px 0px;
+}
+
+div.turtlebot-sec6-line {
+    height: 2px;
+    background: #1a272d;
+    margin: 15px 450px 30px 450px;
+}
+
+table.turtlebot-sec6-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th.table-blank-square {
+    width: 135px;
+}
+
+h1.turtlebot-sec6-models1,
+h1.turtlebot-sec6-models2,
+h1.turtlebot-sec6-models3,
+h1.turtlebot-sec6-models4 {
+    font-size: 17px;
+    text-align: center;
+    color: #1a272d;
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+    div.turtlebot-container6 {
+        padding-bottom: 40px;
+        flex-flow: wrap;
+    }
+
+    div.turtlebot-sec6-box1 {
+        margin: 0px 40px 0px 40px;
+    }
+
+    h1.turtlebot-sec6-h1 {
+        font-size: 6vw;
+    }
+
+    div.turtlebot-sec6-line {
+        width: auto;
+        margin: 10px 300px 20px 300px;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+    div.turtlebot-container6 {
+        flex-wrap: wrap;
+        padding: 20px 0px 0px 0px;
+        margin-bottom: 20px;
+    }
+
+    div.turtlebot-sec6-box1 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    th.table-blank-square {
+        width: auto;
+    }
+
+    h1.turtlebot-sec6-h1 {
+        font-size: 45px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    div.turtlebot-sec6-line {
+        margin: 5px 150px 15px 150px;
+    }
+}
+
+/* SECTION 7 */
+div.locobot-container10 {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    background: #ededed;
+}
+
+div.locobot-left-wrap {
+    flex-wrap: wrap;
+    width: 1100px;
+    background: #ededed;
+}
+
+h1.locobot-questions {
+    font-size: 3.5vw;
+    color: #1a272d;
+}
+
+div.locobot-line {
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 215px 15px 0px;
+}
+
+div.unitree-contact-box2 {
+    width: 100%;
+    height: 50px;
+    background: #ededed;
+}
+
+img.unitree-contact-img2 {
+    /* transform: scaleX(-1); */
+    width: 408px;
+}
+
+/* Contact form field edits */
+div#ctl45_dvControl {
+    margin-top: 0px;
+}
+
+/* Edits the text area for the contact form */
+input#ctl45_ctlContactForm_rpFormField_ctl00_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl01_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl02_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl03_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl04_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+/* Color of border on hover */
+input#ctl45_ctlContactForm_rpFormField_ctl00_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl01_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl02_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl03_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl04_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl05_txtField:hover {
+    border: 1px solid #007cc4;
+}
+
+/* Makes message box longer */
+input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+    padding-bottom: 120px;
+}
+
+/* Style the submit button with a specific background color etc */
+input#ctl45_ctlContactForm_btnSubmit {
+    background-color: #007cc4;
+    color: white;
+    padding: 15px 50px;
+    margin-top: 0px;
+    border: none;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input#ctl45_ctlContactForm_btnSubmit:hover {
+    background-color: white;
+    color: #007cc4;
+}
+
+/* Closes gap between title text & name section */
+div#ctl45_dvControl.Control.ContactForm.Control_12777 {
+    margin-top: 0px;
+}
+
+input#ctl45_ctlContactForm_rpFormField_ctl06_rblFields_1 {
+    margin-left: 15px;
+}
+
+figure.unitree-secondimg-background {
+    background: #ededed;
+}
+
+
+/* DESKTOP */
+@media only screen and (max-width: 2565px) {
+    div.locobot-left-wrap {
+        width: auto;
+    }
+
+    img.locobot-banner {
+        width: 1430px;
+    }
+
+    div.contact-info {
+        max-width: 1135px;
+    }
+
+    figure.unitree-secondimg-background {
+        width: 530px;
+    }
+
+    img.unitree-contact-img2 {
+        width: 100%;
+    }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+    div.locobot-container10 {
+        flex-flow: wrap;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    h1.locobot-questions {
+        font-size: 60px;
+    }
+
+    div.locobot-line {
+        margin: 10px 326px 15px 0px;
+    }
+
+    img.unitree-contact-img2 {
+        display: none;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+    div.locobot-container10 {
+        flex-flow: wrap;
+        margin-bottom: 0PX;
+    }
+
+    div.contact-info {
+        padding: 35px 30px 30px 30px;
+    }
+
+    h1.locobot-questions {
+        font-size: 44px;
+        margin-top: 0px;
+    }
+
+    div.locobot-line {
+        margin: 10px 165px 15px 0px;
+    }
+
+    input#ctl45_ctlContactForm_rpFormField_ctl00_txtField,
+    input#ctl45_ctlContactForm_rpFormField_ctl01_txtField,
+    input#ctl45_ctlContactForm_rpFormField_ctl02_txtField,
+    input#ctl45_ctlContactForm_rpFormField_ctl03_txtField,
+    input#ctl45_ctlContactForm_rpFormField_ctl04_txtField,
+    input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+        padding: 10px;
+        margin-top: 1px;
+        margin-bottom: 0px;
+    }
+}
+
+label {
+    color: white !important;
+}
