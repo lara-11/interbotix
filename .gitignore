@@ -1,2 +1,29 @@
+# General Starter .gitignore Project (works for any project) - or any project using npm/yarn/pnpm to install packages
+
+# System files (Mac & Windows)
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code settings
 .vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Environment / secret files, passwords, API keys (just in case)
+.env
+.env.*
+
+# Dependencies (npm / yarn / pnpm)
+node_modules/
+
+# Build/output folders (if you add them later)
+dist/
+build/
